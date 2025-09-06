@@ -76,6 +76,7 @@
    border-top-left-radius:5px;
    border-bottom-left-radius:5px;
    border: none;
+   padding: 6px;
 }
 
 .search-input{
@@ -128,3 +129,25 @@ span{
 }
 
 /* second navbar styles */
+.navbar-2{
+    height: 40px;
+    background-color: #324066;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    
+
+}
+
+.navbar-2 li{
+    margin-right: 20px;
+}
+
+.navbar-2 i{
+    padding: 0px 5px;
+}
+
+
+
