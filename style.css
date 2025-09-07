@@ -154,7 +154,7 @@ span{
 
 .hero-section{
     background-image: url(/images/hero_image.jpg);
-    height: 600px;
+    height: 380px;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -178,4 +178,46 @@ span{
     font-size: 14px;
 }
 
+/*shop section */
 
+.shop-section{
+    background-color: rgb(255, 238, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    background-color: white;
+    height:400px;
+    width: 23%;
+    /* border: 1px solid black; */
+    color: black;
+    margin-top: 15px;
+}
+
+.box-content{
+    padding: 20px 20px 15px ;
+    height: 350px;
+}
+
+.img{
+    height:300px ;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.box-content p{
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.box-content a{
+    
+    font-size: 1rem;
+    color: #2162a1;
+    
+}
